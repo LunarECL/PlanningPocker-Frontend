@@ -4,6 +4,7 @@ import Main from "./pages/main/Main";
 import "./App.css";
 import "./styles/cols.css";
 import NewGame from "./pages/newGame/NewGame";
+import Game from "./pages/game/Game";
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Main />} />
-          <Route path="new-game" element={<NewGame />} />
+          <Route path="/new-game" element={<NewGame />} />
+          <Route path="/:id" element={<Game />} />
         </Routes>
       </BrowserRouter>
     </div>

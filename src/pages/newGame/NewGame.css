@@ -1,5 +1,4 @@
 .NewGame {
-  background-color: #f2f2f2;
   height: 100vh;
 }
 
@@ -19,23 +18,21 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 20px;
+  margin-top: 30px;
 }
 
 .FormGroup {
   position: relative;
-  width: 300px;
-  margin-bottom: 20px;
+  width: 400px;
+  margin-bottom: 30px;
 }
 
 .FormGroup input {
-  width: 100%;
   padding: 10px;
   border: 1px solid #9c27b0;
   outline: none;
   font-size: 1em;
   border-radius: 5px;
-  background-color: #f2f2f2;
 }
 
 .FormGroup span {
@@ -55,7 +52,6 @@
   transform: translateX(10px) translateY(-7px);
   font-size: 0.65em;
   padding: 0 10px;
-  background-color: #f2f2f2;
   border-left: 1px solid #9c27b0;
   border-right: 1px solid #9c27b0;
   letter-spacing: 0.2em;

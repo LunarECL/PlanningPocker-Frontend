@@ -1,14 +1,16 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import "./NewGame.css";
 
 const NewGame: React.FC = () => {
   const [gameName, setGameName] = useState("");
-  const [votingSystem, setVotingSystem] = useState("");
+  let navigate = useNavigate();
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     console.log(`Game name: ${gameName}`);
-    console.log(`Voting system: ${votingSystem}`);
+    //TODO create game from backend and get id from response and navigate to game page
+    navigate("/dqwdasdw");
   };
 
   return (
