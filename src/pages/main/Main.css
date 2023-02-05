@@ -1,5 +1,5 @@
 .Main {
-  background-color: #fff8e8;
+  background-color: #f2f2f2;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -7,14 +7,14 @@
 }
 
 .RoundedButton {
-  background-color: #a799b7;
+  background-color: #7b1fa2;
   border-radius: 10px;
   border: 0px solid;
-  padding: 10px 20px;
-  font-size: 18px;
+  padding: 7px 15px;
+  font-size: 15px;
   color: #fff;
 }
 
 .RoundedButton:hover {
-  background-color: #b7a7c7;
+  background-color: #9c27b0;
 }

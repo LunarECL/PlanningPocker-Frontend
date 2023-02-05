@@ -1,0 +1,62 @@
+.NewGame {
+  background-color: #f2f2f2;
+  height: 100vh;
+}
+
+#NewGameBody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#gameName {
+  width: 100%;
+}
+
+.Form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.FormGroup {
+  position: relative;
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.FormGroup input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #9c27b0;
+  outline: none;
+  font-size: 1em;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+}
+
+.FormGroup span {
+  position: absolute;
+  left: 0;
+  padding: 10px;
+  pointer-events: none;
+  color: gray;
+  font-size: 1em;
+  text-transform: uppercase;
+  transition: 0.2s;
+}
+
+.FormGroup input:valid ~ span,
+.FormGroup input:focus ~ span {
+  color: #7b1fa2;
+  transform: translateX(10px) translateY(-7px);
+  font-size: 0.65em;
+  padding: 0 10px;
+  background-color: #f2f2f2;
+  border-left: 1px solid #9c27b0;
+  border-right: 1px solid #9c27b0;
+  letter-spacing: 0.2em;
+}
