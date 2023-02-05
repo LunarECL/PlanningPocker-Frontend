@@ -1,0 +1,20 @@
+.Main {
+  background-color: #fff8e8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.RoundedButton {
+  background-color: #a799b7;
+  border-radius: 10px;
+  border: 0px solid;
+  padding: 10px 20px;
+  font-size: 18px;
+  color: #fff;
+}
+
+.RoundedButton:hover {
+  background-color: #b7a7c7;
+}
